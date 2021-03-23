@@ -1,0 +1,45 @@
+header{
+    background-color: blue;
+    height: 10vh;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+nav{
+    height: 75vh;
+    flex-grow: 1;
+    background-color: salmon;
+    border-radius: 5px;
+}
+
+article{
+    height: 75vh;
+    flex-grow: 3;
+    order: 1;
+    background-color: skyblue;
+    border-radius: 5px;
+    margin: 0 8px ;
+}
+aside{
+    order: 2;
+    height: 75vh;
+    flex-grow: 1;
+    background-color: salmon;
+    border-radius: 5px;
+}
+.container{
+    display: inline-flex;
+    width: 100%;
+}
+
+
+
+footer{
+    background-color: blue;
+    height: 10vh;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
