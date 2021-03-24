@@ -7,6 +7,11 @@ header{
 }
 
 
+.container{
+    display: inline-flex;
+    width: 100%;
+}
+
 nav{
     height: 75vh;
     flex-grow: 1;
@@ -29,12 +34,6 @@ aside{
     background-color: salmon;
     border-radius: 5px;
 }
-.container{
-    display: inline-flex;
-    width: 100%;
-}
-
-
 
 footer{
     background-color: blue;
